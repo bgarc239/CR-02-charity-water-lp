@@ -255,6 +255,40 @@ section {
   background-color: var(--black);
 }
 
+/* Jump animation for small interactive bounce */
+@keyframes jump {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* Ensure icons can transform smoothly and show jump on hover/focus */
+.icons img,
+.socials a img {
+  display: inline-block;           /* allow transform without affecting layout */
+  transition: transform 120ms ease; /* smooth fallback when not animating */
+  will-change: transform;
+  cursor: pointer;
+}
+
+/* Trigger a single jump on hover or keyboard focus */
+.icons img:hover,
+.icons img:focus,
+.socials a img:hover,
+.socials a img:focus {
+  animation: jump 420ms cubic-bezier(.2,.8,.2,1);
+  outline: none;
+}
+
+/* Optional: slight press feedback while active/clicked */
+.icons img:active,
+.socials a img:active {
+  transform: translateY(2px);
+}
+
 /* Small helpers */
 h2 { font-weight: 700; }
 p { margin: 0 0 12px; }
