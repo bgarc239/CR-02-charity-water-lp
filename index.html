@@ -22,8 +22,8 @@
 
             <div class="icons" aria-hidden="true">
                 <img src="img/credit_card_heart_24dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="credit card heart icon" />
-                <img src="water_drop_25dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="water drop icon" />
-                <img src="volunteer_activism_24dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="volunteer icon" />
+                <img src="img/water_drop_25dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="water drop icon" />
+                <img src="img/volunteer_activism_24dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="volunteer icon" />
             </div>
 
             <a href="#join" class="btn-primary">Join Us Now</a>
@@ -36,9 +36,9 @@
             <p class="caption">Search here for more information and ways to help.</p>
 
             <div class="socials" aria-label="Social links">
-                <a href="#"><img src="alternate_email_24dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="Instagram" /></a>
-                <a href="#"><img src="youtube_activity_24dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="Facebook" /></a>
-                <a href="#"><img src="share_24dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="Twitter" /></a>
+                <a href="#" aria-label="Email"><img src="img/alternate_email_24dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="email icon" /></a>
+                <a href="#" aria-label="YouTube"><img src="img/youtube_activity_24dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="youtube icon" /></a>
+                <a href="#" aria-label="Share"><img src="img/share_24dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="share icon" /></a>
             </div>
         </div>
     </section>
@@ -58,12 +58,18 @@
         <h2>Real Impact: Meet Amina</h2>
         <!-- Container for image and text -->
         <div class="impact-content">
-            <!-- Impact image -->
-            <img src="7255_Ethiopia_2019_CG-.jpg" alt="Amina smiling with clean water" class="impact-image">
+            <!-- Impact image wrapped in a figure for semantic clarity -->
+            <figure>
+                <img src="img/7255_Ethiopia_2019_CG-.jpg" alt="Amina smiling beside her village's new water source" class="impact-image">
+                <figcaption>Amina and her family at their new well.</figcaption>
+            </figure>
+
             <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+            <div class="impact-text">
+                <p>
+                    Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
+                </p>
+            </div>
         </div>
     </section>
 
