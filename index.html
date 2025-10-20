@@ -1,25 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- ...existing code... -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
+    <title>charity: water</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Preconnect to Google Fonts for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Figtree as a free substitute for Proxima Nova -->
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
+    <!-- Hero Section: main banner with overlay, logo, CTA and search -->
     <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
+        <div class="overlay">
+            <img src="img/cw_logo-2.png" alt="charity: water logo" class="logo" />
+
+            <h1>MISSION: BRING CLEAN AND SAFE DRINKING WATER TO PEOPLE IN NEED</h1>
+
+            <div class="icons" aria-hidden="true">
+                <img src="img/credit_card_heart_24dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="credit card heart icon" />
+                <img src="water_drop_25dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="water icon" />
+                <img src="volunteer_activism_24dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="heart icon" />
+            </div>
+
+            <a href="#join" class="btn-primary">Join Us Now</a>
+
+            <div class="search-bar" role="search" aria-label="Site search">
+                <input type="text" placeholder="Search" />
+                <button type="submit" aria-label="Search">&#128269;</button>
+            </div>
+
+            <p class="caption">Search here for more information and ways to help.</p>
+
+            <div class="socials" aria-label="Social links">
+                <a href="#"><img src="alternate_email_24dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="Instagram" /></a>
+                <a href="#"><img src="youtube_activity_24dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="Facebook" /></a>
+                <a href="#"><img src="share_24dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png" alt="Twitter" /></a>
+            </div>
+        </div>
     </section>
 
     <!-- Story Section: This tells the story of the nonprofit -->
     <section class="story">
         <h2>Our Story</h2>
         <p>
-         
+            charity: water works with local partners to bring clean, safe drinking water to communities.
+            We build and maintain sustainable water projects and teach sanitation practices so families can thrive.
+        </p>
     </section>
 
     <!-- Real-World Impact Story Section -->
@@ -29,7 +59,7 @@
         <!-- Container for image and text -->
         <div class="impact-content">
             <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
+            <img src="7255_Ethiopia_2019_CG-.jpg" alt="Amina smiling with clean water" class="impact-image">
             <!-- Impact story text -->
             <p>
                 Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
