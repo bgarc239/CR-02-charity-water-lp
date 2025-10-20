@@ -54,3 +54,6 @@ Add CSS media queries so this landing page looks good on both desktop and mobile
    - Resize/optimize images (1–2MB max; prefer 1000–2000px wide for hero).
    - Use web-friendly formats (webp or jpeg).
    - Commit and push images to your repo so the deployed site can access them.
+
+   Switched img/icon-water.png to water_drop_25dp_FFF7E1_FILL0_wght400_GRAD0_opsz24.png
+   
